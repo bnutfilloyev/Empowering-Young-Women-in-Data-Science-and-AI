@@ -96,17 +96,13 @@ Empowering-Young-Women-in-Data-Science-and-AI/
 │   └── 1-exploratory-data-analysis/
 │       ├── Assignment.pdf
 │       ├── Titanic-Dataset.csv
+│       ├── Presentation.pdf
 │       └── conception.ipynb
 ├── requirements.txt          # Asosiy Python kutubxonalari
 ├── README.md
 └── venv/                     # (ixtiyoriy) Lokal virtual muhit
 ```
 
-Tez havolalar:
-- 📓 Notebook: [`conception.ipynb`](Practical-Statistics/1-exploratory-data-analysis/conception.ipynb)
-- 📄 Vazifa: [`Assignment.pdf`](Practical-Statistics/1-exploratory-data-analysis/Assignment.pdf)
-- 🧾 Dataset: [`Titanic-Dataset.csv`](Practical-Statistics/1-exploratory-data-analysis/Titanic-Dataset.csv)
-- 📦 Asosiy talablari: [`requirements.txt`](requirements.txt)
 
 Kelgusida bo‘limlar bo‘yicha yangi papkalar va notebooklar qo‘shilib boradi (AI Intro, SQL, Python Crash Course, EDA amaliy bo‘limlari, Math, ML va boshqalar).
 
