@@ -1,0 +1,67 @@
+{
+  "survey_info": {
+    "title": "Ayollarning IT sohasiga qiziqishi",
+    "date": "2024-01-15",
+    "participants": 50,
+    "location": "Tashkent"
+  },
+  "responses": [
+    {
+      "id": 1,
+      "age": 22,
+      "education": "Bakalavr",
+      "it_interest": "Yuqori",
+      "programming_experience": "Ha",
+      "preferred_language": "Python",
+      "career_goal": "Data Scientist",
+      "obstacles": ["Vaqt etishmasligi", "Qo'llab-quvvatlash yetishmasligi"]
+    },
+    {
+      "id": 2,
+      "age": 20,
+      "education": "Talaba",
+      "it_interest": "O'rta",
+      "programming_experience": "Yo'q",
+      "preferred_language": null,
+      "career_goal": "Web Developer",
+      "obstacles": ["Texnik bilim etishmasligi"]
+    },
+    {
+      "id": 3,
+      "age": 25,
+      "education": "Magistr",
+      "it_interest": "Yuqori",
+      "programming_experience": "Ha",
+      "preferred_language": "JavaScript",
+      "career_goal": "AI Engineer",
+      "obstacles": ["Gender bias", "Networking"]
+    },
+    {
+      "id": 4,
+      "age": 19,
+      "education": "Talaba",
+      "it_interest": "Past",
+      "programming_experience": "Yo'q",
+      "preferred_language": null,
+      "career_goal": "Aniq emas",
+      "obstacles": ["Qiyin deb o'ylash", "Role model yo'qligi"]
+    },
+    {
+      "id": 5,
+      "age": 23,
+      "education": "Bakalavr",
+      "it_interest": "Yuqori",
+      "programming_experience": "Ha",
+      "preferred_language": "R",
+      "career_goal": "Data Analyst",
+      "obstacles": ["Ish topish qiyinligi"]
+    }
+  ],
+  "summary": {
+    "avg_age": 21.8,
+    "high_interest_percentage": 60,
+    "programming_exp_percentage": 60,
+    "top_career_goals": ["Data Scientist", "AI Engineer", "Web Developer"],
+    "main_obstacles": ["Texnik bilim etishmasligi", "Qo'llab-quvvatlash yetishmasligi", "Vaqt etishmasligi"]
+  }
+}
