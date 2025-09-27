@@ -5,6 +5,17 @@ from faker import Faker
 from datetime import datetime, timedelta
 import random
 
+# Date adapter warning'ni bartaraf etish uchun
+def adapt_date(date):
+    return date.isoformat()
+
+def convert_date(date_string):
+    return datetime.fromisoformat(date_string.decode()).date()
+
+# SQLite date adapter'larni o'rnatish
+sqlite3.register_adapter(datetime.date, adapt_date)
+sqlite3.register_converter("date", convert_date)
+
 # O'zbek nomlari va shaharlar uchun Faker
 fake = Faker('en_US')
 Faker.seed(42)
@@ -15,7 +26,7 @@ print("🚀 E-commerce ma'lumotlar bazasini yaratish boshlandi...")
 print("="*60)
 
 # SQLite ma'lumotlar bazasi yaratish
-conn = sqlite3.connect('ecommerce_analysis.db')
+conn = sqlite3.connect('ecommerce_analysis.db', detect_types=sqlite3.PARSE_DECLTYPES)
 cursor = conn.cursor()
 
 # Jadvallarni yaratish
@@ -183,6 +194,7 @@ print(f"🛍️ {len(products_data)} ta mahsulot qo'shildi")
 
 # 3. Mijozlar
 customers_data = []
+used_emails = set()  # Email unikalligi uchun
 uzbek_first_names_male = ['Akmal', 'Bobur', 'Dilshod', 'Eldor', 'Farrux', 'Gulomjon', 'Humoyun', 'Islom', 'Jasur', 'Karim', 'Laziz', 'Muhsin', 'Nodir', 'Otabek', 'Pulat', 'Qodirjon', 'Rustam', 'Sardor', 'Tulkin', 'Umid']
 uzbek_first_names_female = ['Adolat', 'Barno', 'Dilfuza', 'Elnora', 'Feruza', 'Gulnora', 'Hilola', 'Iroda', 'Jasmin', 'Kamila', 'Laylo', 'Madina', 'Nilufar', 'Oygul', 'Parichehr', 'Qizlarxon', 'Robiya', 'Sevaroxon', 'Toshbonu', 'Umida']
 uzbek_last_names = ['Abdullayev', 'Karimov', 'Toshev', 'Rahimov', 'Yunusov', 'Hakimov', 'Salimov', 'Umarov', 'Nazarov', 'Ismoilov', 'Mahmudov', 'Aliyev', 'Ergashev', 'Yusupov', 'Qodirov', 'Mirzayev', 'Shokirov', 'Rustamov', 'Sultonov', 'Boboev']
@@ -197,7 +209,14 @@ for i in range(2000):
         first_name = random.choice(uzbek_first_names_female)
     
     last_name = random.choice(uzbek_last_names)
-    email = f"{first_name.lower()}.{last_name.lower()}{random.randint(1, 999)}@email.uz"
+    
+    # Unikal email yaratish
+    while True:
+        email = f"{first_name.lower()}.{last_name.lower()}{random.randint(1, 9999)}@email.uz"
+        if email not in used_emails:
+            used_emails.add(email)
+            break
+    
     phone = f"+99890{random.randint(1000000, 9999999)}"
     birth_date = fake.date_between(start_date='-60y', end_date='-18y')
     city, region = random.choice(uzbek_regions)

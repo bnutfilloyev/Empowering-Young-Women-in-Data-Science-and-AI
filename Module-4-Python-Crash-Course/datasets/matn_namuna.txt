@@ -1,0 +1,5 @@
+Python dasturlash tili juda kuchli va ko'p qirrali til hisoblanadi.
+Bu til data science, web development, automation va ko'plab boshqa sohalarda ishlatiladi.
+Python sintaksisi oddiy va tushunarli bo'lib, yangi boshlovchilar uchun juda mos keladi.
+Katta hamjamiyat va boy kutubxonalar Python ni juda mashhur qilgan.
+Machine learning va artificial intelligence sohasida Python dominant pozitsiyani egallaydi.

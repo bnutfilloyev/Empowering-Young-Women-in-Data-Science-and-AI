@@ -1,0 +1,43 @@
+# Module 4: Python Crash Course - Requirements
+
+## System Requirements
+- Python 3.7 yoki undan yuqori
+- Jupyter Notebook yoki JupyterLab
+- Matn editoru (VS Code, PyCharm, yoki boshqa)
+
+## Python Packages
+# Asosiy paketlar (odatda Python bilan birga keladi)
+# math
+# random  
+# datetime
+# os
+# sys
+# json
+
+## Qo'shimcha paketlar (ixtiyoriy, advanced topshiriqlar uchun)
+# requests>=2.25.1      # HTTP requests uchun
+# pandas>=1.3.0         # Data analysis uchun  
+# matplotlib>=3.3.0     # Plotting uchun
+# numpy>=1.21.0         # Scientific computing uchun
+
+## O'rnatish yo'li
+# pip install -r requirements.txt
+
+## Catalog Structure
+# Module-4-Python-Crash-Course/
+# ├── README.md
+# ├── requirements.txt
+# ├── 1-python-basics/
+# │   ├── README.md
+# │   ├── lecture.ipynb
+# │   ├── practical.ipynb
+# │   └── homework.md
+# ├── 2-functions-modules/
+# │   ├── README.md
+# │   ├── lecture.ipynb
+# │   ├── practical.ipynb
+# │   ├── homework.md
+# │   └── my_module.py
+# └── datasets/
+#     ├── talabalar.csv
+#     └── matn_namuna.txt
