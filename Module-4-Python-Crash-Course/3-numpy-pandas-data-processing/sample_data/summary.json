@@ -1,0 +1,13 @@
+{
+  "total_employees": 100,
+  "departments": {
+    "HR": 19,
+    "IT": 18,
+    "Moliya": 18,
+    "Operatsiya": 17,
+    "Sotish": 16,
+    "Marketing": 12
+  },
+  "average_salary": 5692341.45,
+  "average_age": 29.08
+}

@@ -18,6 +18,12 @@ Bu modul Python dasturlash tilining asosiy tushunchalarini o'rgatishga qaratilga
 - **Import**: Modullarni import qilish
 - **Kutubxonalar**: Python standart kutubxonalari va uchinchi tomon kutubxonalari
 
+### 3. NumPy va Pandas bilan ma'lumotlar ishlash (3-numpy-pandas-data-processing)
+- **NumPy**: Arraylar, matematik operatsiyalar, broadcasting
+- **Pandas**: Series, DataFrame, filtering, grouping
+- **Ma'lumot tahlili**: EDA, cleaning, transformation
+- **Aggregation**: Groupby, pivot tables, merging
+
 ## O'quv materiallari
 
 - `lecture.ipynb` - Asosiy ma'ruza materiallari
@@ -43,10 +49,10 @@ Bu modulni tugatgandan so'ng talabalar quyidagilarni qila olishadi:
 
 ## Vaqt sarfi
 
-- Jami: 12 soat
-- Ma'ruzalar: 6 soat
-- Amaliy mashqlar: 4 soat  
-- Mustaqil ish: 2 soat
+- Jami: 18 soat
+- Ma'ruzalar: 9 soat
+- Amaliy mashqlar: 6 soat  
+- Mustaqil ish: 3 soat
 
 ## Baholash mezonlari
 

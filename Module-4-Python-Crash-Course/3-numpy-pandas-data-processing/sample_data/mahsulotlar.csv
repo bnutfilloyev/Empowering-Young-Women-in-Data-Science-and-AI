@@ -1,0 +1,21 @@
+mahsulot_id,nomi,kategoriya,narx,miqdor,yetkazib_beruvchi,sana
+1,Laptop Dell XPS,Texnika,15000000,25,TechSupply,2024-01-15
+2,iPhone 14,Texnika,12000000,18,MobileWorld,2024-01-16
+3,Kitob: Python dasturlash,Kitob,45000,150,BookCenter,2024-01-17
+4,Stol lampa,Uy-ro'zg'or,120000,75,HomeDecor,2024-01-18
+5,Gaming mouse,Texnika,350000,60,TechSupply,2024-01-19
+6,Notebook A4,Alat-asbob,25000,200,OfficeSupply,2024-01-20
+7,Krasovka Nike,Kiyim,800000,40,SportShop,2024-01-21
+8,Televizor Samsung,Texnika,8500000,12,ElectroMarket,2024-01-22
+9,Stul ofis,Mebel,450000,30,FurnitureHouse,2024-01-23
+10,Klaviatura mekanik,Texnika,500000,45,TechSupply,2024-01-24
+11,Monitor 24 dyuym,Texnika,2200000,20,ElectroMarket,2024-01-25
+12,Ruchka to'plami,Alat-asbob,15000,300,OfficeSupply,2024-01-26
+13,Futbolka,Kiyim,85000,100,FashionStore,2024-01-27
+14,Mikrofon USB,Texnika,280000,35,AudioTech,2024-01-28
+15,Divan uch kishi,Mebel,3500000,8,FurnitureHouse,2024-01-29
+16,Planshet iPad,Texnika,9800000,15,MobileWorld,2024-01-30
+17,Qalam karandash,Alat-asbob,8000,500,OfficeSupply,2024-02-01
+18,Shim jeans,Kiyim,250000,80,FashionStore,2024-02-02
+19,Naushnik Bluetooth,Texnika,650000,55,AudioTech,2024-02-03
+20,Shkaf kiyim,Mebel,2800000,10,FurnitureHouse,2024-02-04
