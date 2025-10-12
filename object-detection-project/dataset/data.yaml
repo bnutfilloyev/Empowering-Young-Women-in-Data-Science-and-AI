@@ -1,0 +1,9 @@
+path: /Users/bnutfilloyev/Developer/lesson/object-detection-project/dataset
+
+train: /Users/bnutfilloyev/Developer/lesson/object-detection-project/dataset/images/train
+val: /Users/bnutfilloyev/Developer/lesson/object-detection-project/dataset/images/val
+test:
+
+
+names: 
+  0: palmcenter
