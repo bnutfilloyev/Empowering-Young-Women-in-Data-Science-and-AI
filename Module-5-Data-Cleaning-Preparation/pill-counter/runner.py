@@ -1,8 +1,8 @@
 import cv2
 from ultralytics import YOLO
 
-model = YOLO('models/pill_detection_weight.pt')
-cap = cv2.VideoCapture(0)
+model = YOLO('/Users/bnutfilloyev/Developer/lesson/Module-5-Data-Cleaning-Preparation/pill-counter/models/pill_detection_weight.pt')
+cap = cv2.VideoCapture(1)
 
 while True:
     ret, frame = cap.read()
