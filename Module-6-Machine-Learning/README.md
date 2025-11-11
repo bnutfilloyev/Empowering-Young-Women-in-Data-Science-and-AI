@@ -25,12 +25,31 @@ Machine Learning (Mashinani o'qitish) sun'iy intellektning eng muhim yo'nalishla
 - Dimensionality Reduction: PCA
 - Anomaly Detection
 
-### 5. Model Optimization
-- Hyperparameter Tuning
-- Cross-Validation
-- Overfitting va Underfitting
+### 5. Model Baholash (Model Evaluation)
+- Train/Test Split
+- Cross-Validation (K-Fold)
+- Evaluation Metrics (Accuracy, Precision, Recall, F1-Score)
+- ROC Curve, AUC
+- Confusion Matrix
 
-### 6. ML Project
+### 6. Feature Engineering va Scaling
+- Feature Selection (Filter, Wrapper, Embedded)
+- Feature Scaling (StandardScaler, MinMaxScaler, RobustScaler)
+- Feature Creation (Polynomial, manual features)
+- Feature Encoding (Label, One-Hot, Target)
+- Complete Pipeline
+
+### 7. Deep Learning Asoslari
+- Neural Networks fundamentals
+- Perceptron va Multi-layer Networks
+- Activation Functions (ReLU, Sigmoid, Tanh, Softmax)
+- Forward Propagation va Backpropagation
+- Gradient Descent va Optimizers (SGD, Adam)
+- Keras - High-level Deep Learning
+- PyTorch - Research Framework
+- MNIST classification project
+
+### 8. ML Project (Coming Soon)
 - End-to-end ML project
 - Real dataset bilan ishlash
 - Model deployment asoslari
